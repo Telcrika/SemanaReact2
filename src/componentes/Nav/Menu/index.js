@@ -43,8 +43,8 @@ class Menu extends React.Component {
                     </li>
 
                     <li>
-                    <Link to='/mensagem' className='navbar-links__ativo'>
-                    Mensagem
+                    <Link to='/chat' className='navbar-links__ativo'>
+                    chat
                     </Link>
                     </li>
 
@@ -57,3 +57,4 @@ class Menu extends React.Component {
 
 export default Menu
    
+

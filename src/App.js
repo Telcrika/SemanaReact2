@@ -7,7 +7,7 @@ import Menu from './componentes/Nav/index'
 import './App.css';
 import Contato from './paginas/Contato';
 import Home from './paginas/Home';
-import Mensagem from './paginas/Mensagem';
+import Chat from './paginas/Chat';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route exact path='/' component={PaginaInicial} />
         <Route exact path='/contato' component={Contato} />
         <Route exact path='/home' component={PaginaInicial} />
-        <Route exact path='/mensagem' component={Mensagem} />
+        <Route exact path='/chat' component={Chat} />
       </Switch>
     </div>
   );
